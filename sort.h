@@ -9,7 +9,7 @@
 #define DECREMENT -1
 
 /**
- * struct listint_s 
+ * struct listint_s - Doubly linked list node
  *
  * @n: Integer stored in the node
  * @prev: Pointer to the previous element of the list

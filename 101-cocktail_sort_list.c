@@ -2,11 +2,11 @@
 
 /**
   * cocktail_sort_list - doubly linked list sorted
-  * integers in ascending order 
+  * integers in ascending order
   * Cocktail Shaker sort algorithm.
   * @list: The doubly linked list to apply the cocktail sort
   *
-  * Return: Nothing!
+  * Return: None
   */
 void cocktail_sort_list(listint_t **list)
 {
@@ -53,7 +53,7 @@ void cocktail_sort_list(listint_t **list)
   * @list: The double linked lists that contains the nodes
   * @node: The node to swap with the next node
   *
-  * Return: Nothing!
+  * Return: None
   */
 void swap_nodes(listint_t **list, listint_t *node)
 {

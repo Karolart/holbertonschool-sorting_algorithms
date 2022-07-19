@@ -5,7 +5,7 @@
 /**
  * _merge_sort - initiate merge sort
  * @array: array to be sorted
- * @temp: temporary array 
+ * @temp: temporary array
  * @size: size of the array
  */
 void _merge_sort(int *array, int *temp, size_t size)
@@ -41,7 +41,7 @@ void _merge_sort(int *array, int *temp, size_t size)
 }
 
 /**
- * merge_sort - merge sort initialize 
+ * merge_sort - merge sort initialize
  * @array: array to be sorted
  * @size: size of the array
  */

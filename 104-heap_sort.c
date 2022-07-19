@@ -1,7 +1,7 @@
 #include "sort.h"
 
 /**
- * heap_sort - Sorting array 
+ * heap_sort - Sorting array
  * @array: Array to be sorted
  * @size: Size of the array
  * Return: 0

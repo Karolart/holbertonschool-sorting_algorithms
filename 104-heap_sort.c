@@ -6,7 +6,6 @@
  * @size: Size of the array
  * Return: 0
  */
-
 void stupify(int *array, int heap, int i, int size)
 {
 	int lar = i, left = 2 * i + 1, right = 2 * i + 2, t;

@@ -1,11 +1,13 @@
 #include "sort.h"
 
 /**
- * heap_sort - Sorting array
- * @array: Array to be sorted
- * @size: Size of the array
- * Return: 0
- */
+* stupify - recurrssive heapfiy function
+* @array: Array to sort
+* @heap: size of heap data
+* @i: index
+* @size: size of array
+*/
+
 void stupify(int *array, int heap, int i, int size)
 {
 	int lar = i, left = 2 * i + 1, right = 2 * i + 2, t;
@@ -23,13 +25,11 @@ void stupify(int *array, int heap, int i, int size)
 }
 
 /**
- * heapify - Recursive function to sort binary tree
- * @array: array to be sorted as binary tree
- * @end: Last node in binary tree
- * @start: First node of binary tree
- * @size: Size of the array to sort
- * Return: 0
- */
+* heap_sort - Sorts array with heap sort algo
+* @array: array to sort
+* @size: Size of array to sort
+*/
+
 void heap_sort(int *array, size_t size)
 {
 	int i = size / 2 - 1, temp;

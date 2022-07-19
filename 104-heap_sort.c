@@ -30,7 +30,6 @@ void stupify(int *array, int heap, int i, int size)
  * @size: Size of the array to sort
  * Return: 0
  */
-
 void heap_sort(int *array, size_t size)
 {
 	int i = size / 2 - 1, temp;
